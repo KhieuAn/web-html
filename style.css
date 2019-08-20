@@ -1,0 +1,139 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 0 1rem;
+}
+.text-font {
+    font-size: 0.5rem;
+}
+.display-flex {
+    display: flex;
+}
+.left {
+     padding-left: 0;
+ }
+.nav {
+    height: 2rem;
+    background-color: rgba(0, 0, 0, 0.823);
+    justify-content: flex-end;
+}
+.text-white {
+    color: white;
+}
+.text-black {
+    color: black;
+}
+.center {
+    text-align: center;
+}
+
+.menu {
+    background-color:black;
+}
+.align {
+    justify-content: center; 
+ }
+.logo {
+    height: 6rem;
+}
+.text-logo {
+    font-family: 'Allura', cursive;
+    font-size: 3rem;
+}
+
+.logo {
+    background-color: rgba(159, 145, 145, 0.653);
+}
+
+.main {
+    background-color: rgba(203, 199, 199, 0.55);
+}
+
+.image {
+    width: 100%;
+}
+.pro-reduce {
+    position: relative;
+}
+.reduce {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    border: 1px solid black;
+    background-color: rgb(223, 15, 15);
+    padding: 3px;
+    border-radius: 5px;
+}
+.footer {
+    background-color:rgba(17, 12, 12, 0.836);
+    padding: 1rem 0;
+}
+.fa {
+   padding: 1rem;
+}
+.fa-facebook {
+    background: #3B5998;
+}
+.fa-twitter {
+    background: #3B5998;
+}
+.fa-google {
+    background: #dd4b39; 
+}
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .banner {
+        width: 100%;
+        height: 70vh;
+        background-image: url(./image/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 2rem;
+    }
+    ul li {
+        padding: 0 2rem;
+    }
+    .text-font {
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .banner {
+        width: 100%;
+        height: 70vh;
+        background-image: url(./image/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 2rem;
+    }
+    ul li {
+        padding: 0 2rem;
+    }
+    .text-font {
+        font-size: 1rem;
+    }
+}
+
+.pad-bottom {
+    padding-bottom: 2rem;
+}
+.pad {
+    padding: 1rem 0;
+}
+.bd-bottom {
+    border-bottom: 1px solid grey;
+}
+.bd-top {
+    border-top: 1px solid grey;
+}
+.big-text {
+    font-size: 1.5rem;
+}
